@@ -1,0 +1,32 @@
+body {
+  background-image: url(Images/Background.jpeg);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; 
+}
+
+header img {
+  width: 170px;
+}
+
+header nav ul {
+  list-style: none;
+  
+}
+
+header nav li {
+  display: inline-block;
+  color: aliceblue;
+  margin-left: 20px;
+}
+
+header a{
+  text-decoration: none;
+  color: aliceblue;
+  background-color: aqua;
+  padding: 10px;
+}
