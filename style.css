@@ -3,10 +3,7 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 10px 20px; 
 }
 
 header img {
@@ -15,18 +12,17 @@ header img {
 
 header nav ul {
   list-style: none;
-  
+  background-color: aliceblue;
 }
 
 header nav li {
   display: inline-block;
-  color: aliceblue;
-  margin-left: 20px;
+}
+header nav li a {
+  color: rgb(0, 0, 0);
+  transition: color 0.21s;
 }
 
-header a{
-  text-decoration: none;
-  color: aliceblue;
-  background-color: aqua;
-  padding: 10px;
+header nav li a:hover {
+  color: rgb(214, 159, 64);
 }
