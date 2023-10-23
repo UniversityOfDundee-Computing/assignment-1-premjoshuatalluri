@@ -1,16 +1,17 @@
-
-body {
-  /*background-image: url(Images/Background.jpeg);*/
+*{
   font-family: Volkhov;
 }
-/*------------------Header-----------------text-decoration-none fw-bold fs-4*/
+body {
+  background-image: url(Images/leather-texture_800.webp);
+}
+/*------------------Header-----------------*/
 header {
-  background-color:rgb(30, 29, 29);
   align-items: center;
 }
 
 header img {
   width: 170px;
+  height: 110px;
 }
 
 header nav ul {
@@ -21,7 +22,6 @@ header nav li {
   display: inline-block;
 }
 header nav li a {
-  font-family: Volkhov;
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -33,6 +33,7 @@ header nav li a:hover {
   color: rgb(214, 159, 64);
 }
 /*-------------Hero------------------*/
+
 .Hero-container{
   width: 100%;
   height: 400px;
@@ -42,14 +43,53 @@ header nav li a:hover {
   background-position: center;
 }
 .container-element2,.container-element1{
-  font-family: Volkhov;
-  color: aliceblue;
+  color: rgb(206, 204, 203);
   align-items: center;
 }
-/*----------Moto----------------------*/
-.moto-container{
+.hero-click{
+  text-decoration: none;
+  border: 1px solid rgb(206, 204, 203);
+  color: rgb(206, 204, 203);
+  transition: color,border,background-image,background-color 1s;
+
+}
+.hero-click:hover{
+  color: aliceblue;
+  background-image: url(Images/fiery.png);
+  background-color: rgb(211, 46, 24);
+  border: none;
+}
+
+/*----------Moto-----------------*/
+.moto-p1{
+  color: rgb(219, 160, 128);
+  text-shadow: 2px 0px 1.2px rgb(255,255,255,0.9);
+}
+.moto-p2{
+  color: rgb(206, 204, 203);
+}
+.moto-image1{
+  width: 500px;
+
+}
+/*---------Features--------------*/
+.icon-box{
   background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-
+  padding: 30px;
+  border-radius: 10px;
+  transition: box-shadow 0.21s;
+}
+.icon-box:hover{
+  box-shadow: 9px 8px 20px 1px #000000;
+}
+.icon-head{
+  color: rgb(219, 160, 128);
+  text-decoration: none;
+  font-weight: bold;
+}
+.icon-body{
+  color: rgb(206, 204, 203);
+  text-decoration: none;
 }
