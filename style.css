@@ -99,9 +99,7 @@ header nav li a:hover {
   text-align: center;
 }
 /*--------Footer-----------------*/
-.footer-container{
-  background-color: #000000;
-}
+
 .footer-content p{
   text-align: center;
   color: rgb(206, 204, 203);
