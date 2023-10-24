@@ -1,0 +1,21 @@
+body {
+  background-image: 
+     url('/Users/premjoshua/Desktop/WebAssignment/assignment-1-premjoshuatalluri/Images/Background.jpeg'),
+     url('../Story/images/bg-repeat.jpg');
+  background-repeat: no-repeat, repeat-y;
+  background-size: auto, 100% auto;
+  margin: 0px;
+  padding: 0px;
+}
+/*--Header--*/
+header {
+  padding: 0;
+  font-family: MedievalSharp;
+}
+.h-img1 {
+  width: 200px;
+}
+.h-h1 {
+  color: rgb(214, 159, 64);
+  text-shadow: 2px 0px 1.2px rgba(47, 31, 31, 0.9);
+}
