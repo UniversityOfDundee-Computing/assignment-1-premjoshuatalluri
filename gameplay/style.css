@@ -34,11 +34,11 @@ header {
                     url(../Story/images/Screenshot\ 2023-10-24\ at\ 7.18.06\ PM.png);
   background-repeat: no-repeat, repeat-y;
   background-size: 100% auto, 100% auto;
-  margin: 0px 190px;
+  margin: 0px 10%;
   padding: 30px;
   position: relative;
 }
-
+n 
 .gameplay::before,
 .gameplay::after {
   content: "";
@@ -85,4 +85,18 @@ header {
 .footer-content p{
   text-align: center;
   color: rgb(206, 204, 203);
+}
+
+@media (max-width: 768px) {
+  
+  .gameplay {
+    width: 600px;
+  }
+  .action-bar-content{
+    width: 540px;
+  }
+  .img3,.damage-elements{
+    max-width: 100%;
+    overflow: auto;
+  }
 }
