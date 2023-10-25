@@ -63,6 +63,10 @@ header {
   text-align: center;
   font-size: smaller;
 }
+/*list head*/
+.list-head {
+  color: #dca639;
+}
 /* Gameplay1*/
 .gameplay-1 {
   margin-top: 80px;
