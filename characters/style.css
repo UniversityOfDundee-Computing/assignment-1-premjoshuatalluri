@@ -1,3 +1,6 @@
+* {
+  color: #a99877;
+}
 body {
   background-image:
     url('/Users/premjoshua/Desktop/WebAssignment/assignment-1-premjoshuatalluri/Images/Background.jpeg'),
@@ -7,7 +10,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
+body h1,h2{
+  font-family: MedievalSharp;
+  color: #f3e6d0;
+}
 /*--Header--*/
 header ,.characters-list h1{
   font-family: MedievalSharp;
@@ -31,17 +37,11 @@ ol{
     url('../Story/images/Screenshot\ 2023-10-24\ at\ 7.18.06\ PM.png');
   background-repeat: no-repeat, repeat-y;
   background-size: 100% auto, 100% auto;
-  margin: 0px 190px;
+  margin: 0px 10%;
   padding: 30px;
 }
 .characters-list{
   padding-top: 90px;
-}
-.characters-list h1{
-  color: rgb(214, 159, 64);
-}
-.characters-list p,li{
-  color: rgb(206, 204, 203);
 }
 .character-1-container {
   margin-bottom: 50px;
@@ -75,4 +75,24 @@ ol{
 }
 .col-6-2 {
   padding-bottom: 10px;
+}
+/*--------Footer-----------------*/
+.footer-content p{
+  text-align: center;
+  color: rgb(206, 204, 203);
+}
+/*--Responsive--*/
+@media (max-width: 768px) {
+  
+  .character-board {
+    width: 600px;
+  }
+  .character-1-info{
+    flex-wrap: wrap;
+    width: 540px;
+  }
+  .img3,.damage-elements{
+    max-width: 100%;
+    overflow: auto;
+  }
 }
