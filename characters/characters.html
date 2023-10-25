@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,69 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Link to Bootstrap CSS file -->
 </head>
+
 <body>
-  <!--Header-->
+  <!-- Header -->
   <header class="header m-2">
     <article class="header-conatiner d-flex justify-content-between align-items-center">
       <a href="../home.html"><img src="../Images/Diablo3Logo.png" alt="Diablo3Logo" class="h-img1"></a>
       <h1 class="h-h1 fw-bold fs-2">Characters</h1>
-      <a href="../characters/characters.html"><p class="h-p1 fs-3">Gameplay</p></a>
+      <a href="../characters/characters.html">
+        <p class="h-p1 fs-3">Gameplay</p>
+      </a>
     </article>
   </header>
-  <!--Character List-->
-  <section class="character-board">
-    <article class="character-1-container">
-      <div class="character-1">
-        <div class="character-1-info">
-          
-        </div>
-        <div class="character-1-media">
 
+  <!-- Character List -->
+  <section class="character-board d-flex justify-content-center">
+    <article class="characters-list">
+      <!-- Character-1 -->
+      <article class="character-1-container">
+        <div class="character-1-info d-flex justify-content-between">
+          <div>
+            <img src="images/barbarian.png" alt="barbarian" class="c1-img">
+          </div>
+          <div class="character-1-stats">
+            <h1>Barbarian</h1> <!-- Character name -->
+            <p>The Barbarian is a massive, heavily-armed warrior, a wanderer from a tribe that once guarded the sacred
+              Mount Arreat.</p> <!-- Character description -->
+            <ol>
+              <li>Fights savagely with melee weapons.</li>
+              <li>Utilizes brute strength to wield mighty two-handed weapons, a weapon in both hands, or a weapon and
+                shield.</li> 
+              <li>Builds up Fury when taking or dealing damage, then unleashes it in devastating attacks.</li> 
+            </ol>
+            <div class="character-1-media d-flex justify-content-between">
+              <div>
+                <video src="images/c1/barbarian-overview-en_US.mp4" controls poster="" class="c1-video"></video> 
+              </div>
+              <div class="c1-power">
+                <div class="container text-center">
+                  <div class="row">
+                    <div class="col-6 col-sm-3">
+                      <img src="images/c1/x1_barbarian.png" alt="barbarian armor"> <!-- Image of character's armor -->
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <img src="images/c1/x_2_barbarian_earthquake.png" alt=""> <!-- Images of character's ability -->
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-6 col-sm-3">
+                      <img src="images/c1/x_3_barbarian_wrathoftheberserker.png" alt=""> 
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <img src="images/c1/x_4_barbarian_whirlwind.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </article>
     </article>
-  </section>
+  </section> <!-- End of Character List section -->
 </body>
+
 </html>
