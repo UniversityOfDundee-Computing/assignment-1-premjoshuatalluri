@@ -1,3 +1,6 @@
+* {
+  color: #a99877;
+}
 body {
   background-image: 
      url('/Users/premjoshua/Desktop/WebAssignment/assignment-1-premjoshuatalluri/Images/Background.jpeg'),
@@ -7,7 +10,14 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
+body h1{
+  font-family: MedievalSharp;
+  color: #f3e6d0;
+}
+body h2{
+  font-family: MedievalSharp;
+  color: #f3e6d0;
+}
 /*--Header--*/
 header {
   padding: 0;
@@ -17,7 +27,6 @@ header {
   width: 200px;
 }
 .h-h1 {
-  color: rgb(214, 159, 64);
   text-shadow: 2px 0px 1.2px rgba(47, 31, 31, 0.9);
 }
 
@@ -28,7 +37,7 @@ header {
                     url(images/Screenshot\ 2023-10-24\ at\ 7.18.06\ PM.png);
   background-repeat: no-repeat, repeat-y;
   background-size: 100% auto, 100% auto;
-  margin: 0px 190px;
+  margin: 0px 10%;
   padding: 30px;
   position: relative;
 }
@@ -53,13 +62,9 @@ header {
 }
 /* Introduction */
 .introductions{
-  color: rgb(206, 204, 203);
   padding-bottom: 30px;
 }
-.introductions h2{
-  color: rgb(214, 159, 64);
-  font-family: MidevalSharp;
-}
+
 /* Video Styles */
 .i-video {
   width: 450px;
@@ -68,9 +73,6 @@ header {
   border-radius: 5px;
 }
 /*--Story-Board--*/
-.storyboard-1,.storyboard-2 {
-  color: rgb(206, 204, 203);
-}
 .storyboard-1-img{
   width: 400px;
 }
@@ -78,4 +80,11 @@ header {
 .footer-content p{
   text-align: center;
   color: rgb(206, 204, 203);
+}
+
+/*-Responsive--*/
+@media (max-width: 768px) {
+  .story-board,.story-board-2 {
+    flex-wrap: wrap;
+  }
 }
