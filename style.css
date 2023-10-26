@@ -120,5 +120,7 @@ header nav li a:hover {
   .icon-box,.card {
     margin-top: 20px;
   }
-
+  header nav li a {
+    font-size: 12px;
+  }
 }
